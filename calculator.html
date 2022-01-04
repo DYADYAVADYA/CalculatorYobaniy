@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "huynasobahya.css" rel = "stylesheet">
+</head>
+<body>
+    <script src = "apochkaforcalculator.js"></script>
+    <script scr = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div class="calc">
+    <div class = "output">
+    <div class = "current" id = "res"></div>
+    
+    </div>
+    
+    <button class = "span-two" onclick="clean()">C</button>
+    <button class = "loh" onclick = "del()">DEL</button>
+    <button class = "loh" onclick = "operation('/')">÷</button>
+    <button onclick = "operation('1')" class = "loh">1</button>
+    <button onclick = "operation('2')" class = "loh">2</button>
+    <button class = "loh" onclick = "operation('3')">3</button> 
+    <button class = "loh" onclick = "operation('*')">×</button>
+    <button class = "loh" onclick = "operation('4')">4</button>
+    <button class = "loh" onclick = "operation('5')">5</button>
+    <button class = "loh" onclick = "operation('6')">6</button>
+    <button class = "loh" onclick = "operation('+')">+</button>
+    <button class = "loh" onclick = "operation('7')">7</button>
+    <button class = "loh" onclick = "operation('8')">8</button>
+    <button class = "loh" onclick = "operation('9')">9</button>
+    <button class = "loh" onclick = "operation('-')">-</button>
+    <button class = "loh" onclick="operation('.')" id = "point">.</button>
+    <button class = "loh" onclick = "operation('0')">0</button>
+    <button class = "span-two" id = "equal" onclick = "equal('=')">=</button>
+</div>
+    
+</body>
+</html>

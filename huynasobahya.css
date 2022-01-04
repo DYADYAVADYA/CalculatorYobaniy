@@ -1,0 +1,63 @@
+/**@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&display=swap');*/
+
+*, *::before, *::after{
+        box-sizing: border-box;
+        font-family:  Gotham Rounded, sans-serif;                   /*'Concert One', cursive;    */         /*'Fredoka One', cursive;*/
+        font-weight: bolder;
+}
+body{
+        padding:0;
+        margin:0;
+        background: linear-gradient(to right, #51ff00c5, #e8ec21d3);
+}
+.calc{
+        display: grid;
+        grid-template-columns: repeat(4,57px);
+        grid-template-rows: minmax(80px,auto)repeat(5,57px);
+        justify-content: center;
+        align-content: center;
+        min-height: 100vh;
+        
+}
+.calc > button{
+        cursor: pointer;
+        font-size: 19px;
+        font-weight: bolder;
+        border: 1px rgb(255, 253, 253)  solid;
+        background-color: rgb(218, 214, 214);
+        outline: none;
+        
+        
+}
+.calc > button:hover{
+        background-color: rgb(180, 177, 177);
+
+}
+.span-two{
+        grid-column: span 2;
+
+}
+.output{
+        grid-column: 1/-1;
+        background-color: rgba(0, 0, 0, 0.822);
+        display:flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 10px;
+        word-wrap: break-word;
+        word-break: break-all;
+        border-radius: 22.5px 22.5px 0px 0px;
+
+}
+#res{
+        font-size: 23px;
+        color:white
+}
+#point{
+        border-radius: 0px 0px 0px 20px;
+}
+#equal{
+        border-radius: 0px 0px 20px 0px;
+}
